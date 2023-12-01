@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  box-sizing: content-box;
+  background-color: rgb(147, 237, 147);
+  margin: 10px auto;
+  border: 5px #000 dotted;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.miniBox {
+  height: 35px;
+  width: 35px;
+  border: #000 2px solid;
+}
+
+.floor {
+  height: 35px;
+  width: 35px;
+  border: #000 2px solid;
+}
+
+.wall {
+  background-color: #fff;
+  box-shadow: inset 0px 0px 1px 3px rgba(0, 0, 0, .5);
+}
+
+.box {
+  background-color: #ffe815;
+  box-shadow: inset 0px 0px 1px 3px rgba(74, 74, 4, 0.5);
+}
+
+.finial {
+  background-color: rgb(241, 102, 74);
+  box-shadow: inset 0px 0px 1px 3px rgba(4, 56, 2, 0.5);
+}
+
+.role {
+  background: url(./images/role.png) 100% 100%;
+  background-size: 100% 100%;
+}
+
+.tools {
+  position: fixed;
+  top: 100px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tools button {
+  padding: 10px;
+  margin: 6px;
+}
